@@ -1,0 +1,32 @@
+Snake Game Documentation
+
+Constants:
+- WIDTH, HEIGHT: The width and height of the game window.
+- GRID_SIZE: The size of each grid cell in the game.
+- SPEED: The speed of the snake in cells per second.
+- COUNTDOWN_TIME: The countdown time in seconds for the game over screen.
+
+Classes:
+- SnakeGame: The main class that implements the Snake game.
+
+Methods:
+- __init__(self, master): Initializes the game with the given master Tkinter window.
+- start_menu(self): Displays the start menu of the game.
+- handle_start_menu(self, event): Handles key presses in the start menu.
+- new_game(self): Starts a new game.
+- return_to_menu(self): Returns to the main menu after the game ends.
+- draw(self): Draws the game elements on the canvas.
+- update(self): Updates the game state and redraws the canvas.
+- create_food(self): Creates a new food item at a random location.
+- move_snake(self): Moves the snake based on the current direction.
+- check_collision(self): Checks for collisions between the snake and walls or itself.
+- change_direction(self, event): Changes the direction of the snake based on key presses.
+- show_high_scores(self): Displays the high scores in a new window.
+- save_high_score(self, name, score): Saves the player's name and score to a file.
+
+Usage:
+1. Run the SnakeGame class with a Tkinter root window to start the game.
+2. Use arrow keys to move the snake and 'M' to return to the main menu.
+3. Press 'N' to start a new game, 'H' to view high scores, and 'Q' to quit.
+4. When entering a name for the high scores, press Enter to save and close the window.
+

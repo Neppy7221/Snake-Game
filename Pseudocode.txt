@@ -1,0 +1,30 @@
+SnakeGame Class
+    Properties:
+        - master (Tk object): The main Tkinter window
+        - canvas (Canvas object): The canvas for drawing the game
+        - snake (list of tuples): The positions of the snake's body segments
+        - food (tuple): The position of the food
+        - direction (string): The direction in which the snake is moving
+        - score (int): The player's score
+        - game_over (bool): Flag indicating if the game is over
+        - countdown (int): Countdown timer for returning to the main menu
+
+    Methods:
+        - __init__(self, master): Initialize the game
+        - start_menu(self): Display the start menu
+        - handle_start_menu(self, event): Handle key presses in the start menu
+        - new_game(self): Start a new game
+        - return_to_menu(self): Return to the main menu
+        - draw(self): Draw the game elements on the canvas
+        - update(self): Update the game state
+        - create_food(self): Generate a new position for the food
+        - move_snake(self): Move the snake and check for collisions
+        - check_collision(self): Check for collisions with walls or itself
+        - change_direction(self, event): Change the direction of the snake
+        - show_high_scores(self): Display the high scores window
+        - save_high_score(self, name, score): Save the high score with the player's name
+
+Main Code:
+    - Create a Tkinter window
+    - Create an instance of the SnakeGame class
+    - Start the main event loop

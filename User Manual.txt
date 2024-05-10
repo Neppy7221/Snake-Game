@@ -1,0 +1,21 @@
+Movement: Arrow keys on keyboard
+Menu keybind: M
+
+Starting a New game:
+
+Press "N" to start a game of snake
+
+
+Saving High Scores:
+
+Press "H" to open the High score window. 
+
+enter your name and press save, otherwise it wont save your score.
+
+Whenever you save your name to the high score menu, it instead creates a text file that is updated after you save the high score again. This way you can keep track of your high scores over time.
+
+Whenever you are done on the high score window you can press the "Enter" key to exit the high score window.
+
+Quitting the application:
+
+To exit the game you can press Q or just press the exit button in the top right corner of the screen. 
